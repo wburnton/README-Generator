@@ -1,42 +1,46 @@
-# lala 
+# Sample Title 
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 ## Description 
 
-lalal 
+This is a sample title project! This is where the description of such a project would be.  
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license) 
-- [Test](#test) 
+- [Tests](#tests) 
 - [Questions](#questions)
 
 ## Installation
 
-stuff
+For this, we had node js downloaded, as well as ran npm i beforehand! 
+
 ## Usage
 
-more stuff
+The project is used simply! because it is just a sample. 
 
 ## Credits
 
-lots of stuff 
+Only me myself and I on this one!  
 
 ## Tests 
 
-boo
+tesing.... seems fine to me. 
 
 ## License
 
 MIT
 
-## Badges
+## Badges 
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Questions 
 
-wburnton 
-email@email.com;
+If there are any questions, feel free to reach out at 
+github.com/wburnton and 
+wburnton@gmail.com;

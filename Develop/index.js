@@ -1,27 +1,30 @@
 // TODO: Include packages needed for this application 
 const inquirer = require('inquirer');
 const fs = require('fs');  
+
+// readme formatting 
 const generateReadMe = ({ title, description, instructions, usage, contribution, test, license, github, email}) => 
 `# ${title} 
 
-${licenseBadge(license)}
+
 ## Description 
 
 ${description} 
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license) 
-- [Test](#test) 
+- [Tests](#tests) 
 - [Questions](#questions)
 
 ## Installation
 
 ${instructions}
+
 ## Usage
 
 ${usage}
@@ -38,13 +41,17 @@ ${test}
 
 ${license}
 
-## Badges
+## Badges 
+
+${licenseBadge(license)}
 
 ## Questions 
 
-${github} 
+If there are any questions, feel free to reach out at 
+github.com/${github} and 
 ${email};`
 
+//
 function licenseBadge(license) {
   if (!license) {
     return ``;
@@ -119,7 +126,7 @@ inquirer
     const readmePageContent = generateReadMe(answers); 
   
     fs.writeFile('README2.md', readmePageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!'));
+      err ? console.log(err) : console.log('Successfully created README!'));
 });
 const questions = []; 
 
